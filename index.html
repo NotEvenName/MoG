@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appendix Webpage</title>
+    <link rel="stylesheet" href="static/css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+</head>
+<body>
+    <script src="static/js/select_frame.js"></script>
+
+    <h1>Motion-Aware Generative Frame Interpolation
+        <!-- <br>Supplementary Materials -->
+        <br><span style="font-size: large; color: rgb(54, 125, 189);">(CVPR 2025 Submission #11302)</span>
+    </h1>
+    <p>
+        On this webpage, we showcase video comparisons between our proposed method, MoG, and established baseline methods across both real-world and animated scenes.
+    </p>
+        
+
+    <!-- Centered Navigation Links -->
+    <!-- <div class="nav-links">
+        <a href="#baseline">Comparisons</a> |
+        <a href="#articulated">Articulated Motions Comparisons</a> |
+        <a href="#ablation">Ablations</a> |
+    </div> --> 
+    <hr>
+
+    <div class="container" id="baseline">
+        <h2>Real-world scenes</h2>
+        <!-- example1 -->
+        <div class="row1">
+            <div class="media1">Input frames</div>
+            <div class="media1">GI</div>
+            <div class="media1">DynamiCrafter</div>
+            <div class="media1">MoG (Ours)</div>
+        </div>
+        <div class="row1">
+            <div class="media1">
+                <img src="static/videos/input_frames/example1/frame1.png" alt="Image 1" data-base-path="static/videos/input_frames/example1/">
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/GI/example1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Crafter/example1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Ours/example1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <!-- example2 -->
+        <div class="row1">
+            <div class="media1">Input frames</div>
+            <div class="media1">GI</div>
+            <div class="media1">DynamiCrafter</div>
+            <div class="media1">MoG (Ours)</div>
+        </div>
+        <div class="row1">
+            <div class="media1">
+                <img src="static/videos/input_frames/example2/frame1.png" alt="Image 1" data-base-path="static/videos/input_frames/example2/">
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/GI/example2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Crafter/example2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Ours/example2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- example3 -->
+        <div class="row1">
+            <div class="media1">Input frames</div>
+            <div class="media1">GI</div>
+            <div class="media1">DynamiCrafter</div>
+            <div class="media1">MoG (Ours)</div>
+        </div>
+        <div class="row1">
+            <div class="media1">
+                <img src="static/videos/input_frames/example3/frame1.png" alt="Image 1" data-base-path="static/videos/input_frames/example3/">
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/GI/example3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Crafter/example3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Ours/example3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- example4 -->
+        <div class="row1">
+            <div class="media1">Input frames</div>
+            <div class="media1">GI</div>
+            <div class="media1">DynamiCrafter</div>
+            <div class="media1">MoG (Ours)</div>
+        </div>
+        <div class="row1">
+            <div class="media1">
+                <img src="static/videos/input_frames/example4/frame1.png" alt="Image 1" data-base-path="static/videos/input_frames/example4/">
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/GI/example4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Crafter/example4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Ours/example4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- example5 -->
+        <div class="row1">
+            <div class="media1">Input frames</div>
+            <div class="media1">GI</div>
+            <div class="media1">DynamiCrafter</div>
+            <div class="media1">MoG (Ours)</div>
+        </div>
+        <div class="row1">
+            <div class="media1">
+                <img src="static/videos/input_frames/example5/frame1.png" alt="Image 1" data-base-path="static/videos/input_frames/example5/">
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/GI/example5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Crafter/example5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Ours/example5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <h2>Animated scenes</h2>
+        <!-- example6 -->
+        <div class="row1">
+            <div class="media1">Input frames</div>
+            <div class="media1">GI</div>
+            <div class="media1">ToonCrafter</div>
+            <div class="media1">MoG (Ours)</div>
+        </div>
+        <div class="row1">
+            <div class="media1">
+                <img src="static/videos/input_frames/example6/frame1.png" alt="Image 1" data-base-path="static/videos/input_frames/example6/">
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/GI/example6.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Crafter/example6.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Ours/example6.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <!-- example7 -->
+        <div class="row1">
+            <div class="media1">Input frames</div>
+            <div class="media1">GI</div>
+            <div class="media1">ToonCrafter</div>
+            <div class="media1">MoG (Ours)</div>
+        </div>
+        <div class="row1">
+            <div class="media1">
+                <img src="static/videos/input_frames/example7/frame1.png" alt="Image 1" data-base-path="static/videos/input_frames/example7/">
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/GI/example7.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Crafter/example7.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Ours/example7.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+            
+        <!-- example8 -->
+        <div class="row1">
+            <div class="media1">Input frames</div>
+            <div class="media1">GI</div>
+            <div class="media1">ToonCrafter</div>
+            <div class="media1">MoG (Ours)</div>
+        </div>
+        <div class="row1">
+            <div class="media1">
+                <img src="static/videos/input_frames/example8/frame1.png" alt="Image 1" data-base-path="static/videos/input_frames/example8/">
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/GI/example8.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Crafter/example8.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Ours/example8.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- example9 -->
+        <div class="row1">
+            <div class="media1">Input frames</div>
+            <div class="media1">GI</div>
+            <div class="media1">ToonCrafter</div>
+            <div class="media1">MoG (Ours)</div>
+        </div>
+        <div class="row1">
+            <div class="media1">
+                <img src="static/videos/input_frames/example9/frame1.png" alt="Image 1" data-base-path="static/videos/input_frames/example9/">
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/GI/example9.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Crafter/example9.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Ours/example9.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+
+        <!-- example10 -->
+        <div class="row1">
+            <div class="media1">Input frames</div>
+            <div class="media1">GI</div>
+            <div class="media1">ToonCrafter</div>
+            <div class="media1">MoG (Ours)</div>
+        </div>
+        <div class="row1">
+            <div class="media1">
+                <img src="static/videos/input_frames/example10/frame1.png" alt="Image 1" data-base-path="static/videos/input_frames/example10/">
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/GI/example10.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Crafter/example10.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="media1">
+                <video autoplay muted loop>
+                    <source src="static/videos/Ours/example10.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
